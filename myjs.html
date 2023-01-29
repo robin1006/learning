@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <script src="my.js"></script>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML =Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo">Date and Time</p>
+
+<button onclick="abs()">Click</button>
+
+<p id="click">Click Me</p>
+
+<button onclick="NameChange()"> Name Change</button>
+<h3 id="my-name"> My Name</h3>
+
+</body>
+<script>
+    function NameChange(){
+        var htm = document.getElementById("my-name");
+        htm.innerHTML = "Robin Singh";
+    }
+    
+    // document.getElementById("click").innerHTML = "Hello My Name is Tom";
+</script>
+</html> 
